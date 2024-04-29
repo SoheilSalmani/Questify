@@ -4,8 +4,8 @@ import { QuestifyLogo } from "~/components/QuestifyLogo";
 
 export const Header = () => (
   <nav className="pt-6 px-6">
-    <ul className="flex items-center text-sm gap-x-8 font-semibold uppercase">
-      <li className="block flex-grow text-lg">
+    <ul className="flex items-center text-sm gap-x-8 font-semibold uppercase flex-col md:flex-row gap-4">
+      <li className="block flex-grow text-lg md:pb-0">
         <Link
           to="/home"
           className="flex items-center text-3xl font-bold font-alegreya"

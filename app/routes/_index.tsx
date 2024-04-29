@@ -28,12 +28,12 @@ export default function Index() {
     <div>
       <Header />
       <main>
-        <section className="h-[calc(100vh-64px)] flex flex-col justify-center items-center columns-auto p-32">
+        <section className="h-[calc(100vh-64px)] flex flex-col justify-center items-center columns-auto p-16 lg:p-32">
           <div>
-            <h1 className="font-led [text-shadow:_7px_7px_5px_rgb(202_138_4)] uppercase text-8xl text-center leading-tight tracking-wider mb-12 text-yellow-500 animate-bounce">
+            <h1 className="font-led [text-shadow:_7px_7px_5px_rgb(202_138_4)] uppercase text-6xl lg:text-8xl text-center leading-tight tracking-wider mb-12 text-yellow-500 animate-bounce">
               Gamify your life
             </h1>
-            <p className="flex-grow leading-relaxed text-xl font-semibold tracking-wider">
+            <p className="flex-grow leading-relaxed md:text-sm lg:text-xl font-semibold tracking-wider">
               <TypingParagraph />
             </p>
           </div>
