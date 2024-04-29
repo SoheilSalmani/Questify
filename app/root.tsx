@@ -31,7 +31,7 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body className="h-full">
+      <body className="bg-gradient-to-r from-indigo-950 via-orange-950 to-stone-900 h-full text-slate-200">
         <Outlet />
         <ScrollRestoration />
         <Scripts />
